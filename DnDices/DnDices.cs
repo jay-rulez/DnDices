@@ -27,7 +27,7 @@ namespace DnDices
                 simpleSound.Play();
                 Thread.Sleep(1000);
 
-                var result = rand.Next(dice + 1);
+                var result = rand.Next(1, dice + 1);
                 listBoxResult.Items.Add(Convert.ToString(result));
 
 

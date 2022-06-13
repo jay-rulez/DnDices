@@ -98,9 +98,9 @@
             this.lblNumberDices.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNumberDices.Location = new System.Drawing.Point(77, 62);
             this.lblNumberDices.Name = "lblNumberDices";
-            this.lblNumberDices.Size = new System.Drawing.Size(113, 35);
+            this.lblNumberDices.Size = new System.Drawing.Size(77, 35);
             this.lblNumberDices.TabIndex = 5;
-            this.lblNumberDices.Text = "Number";
+            this.lblNumberDices.Text = "Dices";
             // 
             // lblSides
             // 

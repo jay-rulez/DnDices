@@ -40,6 +40,7 @@
             // 
             // numericNumberDices
             // 
+            this.numericNumberDices.BackColor = System.Drawing.SystemColors.Window;
             this.numericNumberDices.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.numericNumberDices.Location = new System.Drawing.Point(77, 123);
             this.numericNumberDices.Name = "numericNumberDices";

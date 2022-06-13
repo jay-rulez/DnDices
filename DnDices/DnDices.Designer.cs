@@ -97,17 +97,19 @@
             this.lblNumberDices.AutoSize = true;
             this.lblNumberDices.BackColor = System.Drawing.Color.Transparent;
             this.lblNumberDices.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNumberDices.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblNumberDices.Location = new System.Drawing.Point(77, 62);
             this.lblNumberDices.Name = "lblNumberDices";
-            this.lblNumberDices.Size = new System.Drawing.Size(77, 35);
+            this.lblNumberDices.Size = new System.Drawing.Size(113, 35);
             this.lblNumberDices.TabIndex = 5;
-            this.lblNumberDices.Text = "Dices";
+            this.lblNumberDices.Text = "Number";
             // 
             // lblSides
             // 
             this.lblSides.AutoSize = true;
             this.lblSides.BackColor = System.Drawing.Color.Transparent;
             this.lblSides.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSides.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblSides.Location = new System.Drawing.Point(370, 62);
             this.lblSides.Name = "lblSides";
             this.lblSides.Size = new System.Drawing.Size(76, 35);
@@ -126,8 +128,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cmbDices);
             this.Controls.Add(this.numericNumberDices);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "DnDices";
-            this.ShowIcon = false;
             this.Text = "DnDices";
             ((System.ComponentModel.ISupportInitialize)(this.numericNumberDices)).EndInit();
             this.ResumeLayout(false);
